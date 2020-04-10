@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MenuUtil {
 
-    public void displayMenu(){
+    public void displayMenu() {
 
         System.out.println("#########################################");
         System.out.println("1:\t check for palindrome");
@@ -15,17 +15,17 @@ public class MenuUtil {
 
     }
 
-    public String readWord(){
+    public String readWord() {
         System.out.print("\nEnter your word: ");
         Scanner s = new Scanner(System.in);
         return s.nextLine();
     }
 
-    public void printResult(String word, boolean isPalindrome){
+    public void printResult(String word, boolean isPalindrome) {
 
-        System.out.print("The word '"+word+"' is ");
+        System.out.print("The word '" + word + "' is ");
 
-        if (isPalindrome){
+        if (isPalindrome) {
             System.out.print("a palindrome\n\n");
         } else {
             System.out.print("not a palindrome\n\n");
